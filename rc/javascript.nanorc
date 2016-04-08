@@ -1,0 +1,22 @@
+syntax "JavaScript" "\.js$"
+
+#keywords
+color green "function"
+color green "(^|\ )(break|case|catch|continue|default|delete|do|else|finally)($|\ )"
+color green "(^|\ )(for|if|in|instanceof|new|null|return|switch)($|\ )"
+color green "(^|\ )(switch|this|throw|try|typeof|undefined|var|void|while|with)($|\ )"
+
+#number
+color red "[0-9]"
+
+#objects
+#color brightblue "(^|\ )[a-zA-Z0-9]+\."
+color cyan "[a-zA-Z0-9]+:"
+
+#strings
+color brightred "L?\"(\\"|[^"])*\""
+color brightred "L?'(\'|[^'])*'"
+
+#comments
+color brightblack "//.*$"
+

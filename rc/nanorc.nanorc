@@ -1,0 +1,8 @@
+syntax "nanorc" "\.nanorc"
+
+color magenta "color"
+color green "(bright)?(white|black|red|blue|green|yellow|magenta|cyan)"
+color brightred "syntax"
+color brightyellow "L?\"(\\"|[^"])*\""
+color brightyellow "L?'(\'|[^'])*'"
+color brightblack "#.*$"
