@@ -1,0 +1,13 @@
+syntax "toml" "\.toml"
+
+color green "\[.*\]"
+
+#number
+color red "[0-9]"
+
+#string
+color brightred "L?\"(\\"|[^"])*\""
+
+#objects
+color cyan "[a-zA-Z0-9\"]+:"
+color cyan "L?\"(\\"|[^"])*\":"
