@@ -1,13 +1,13 @@
 syntax "rust" "\.rs"
 
 # function definition
-color cyan "fn [a-z0-9_]+"
+color green "fn [a-z0-9_]+"
 
 # Reserved words
 color green "(^|\ )(abstract|alignof|as|become|box|break|const|continue|crate|do|else|enum|extern|false|final|fn|for|if|impl|in|let|loop|macro|match|mod|move|mut|offsetof|override|priv|pub|pure|ref|return|sizeof|static|self|struct|super|true|trait|type|typeof|unsafe|unsized|use|virtual|where|while|yield|use)($|\ )"
 
 # macros
-color brightblue "[a-z_]+!"
+color brightgreen "[a-z_]+!"
 
 # Constants
 color magenta "[A-Z][A-Z_]+"

@@ -4,7 +4,10 @@ syntax "JavaScript" "\.js$"
 color green "function"
 color green "(^|\ )(break|case|catch|continue|default|delete|do|else|finally)($|\ )"
 color green "(^|\ )(for|if|in|instanceof|new|null|return|switch)($|\ )"
-color green "(^|\ )(switch|this|throw|try|typeof|undefined|var|void|while|with)($|\ )"
+color green "(^|\ )(switch|this|throw|try|typeof|undefined|var|let|void|while|with)($|\ )"
+
+#std
+color brightblue "(console|process)
 
 #number
 color red "[0-9]"
