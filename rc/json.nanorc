@@ -1,6 +1,6 @@
 syntax "json" "\.json"
 
-color green "\[|\]|{|}"
+color green "[{}]"
 
 #number
 color red "[0-9]"

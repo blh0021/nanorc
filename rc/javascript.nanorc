@@ -6,6 +6,9 @@ color green "(^|\ )(break|case|catch|continue|default|delete|do|else|finally)($|
 color green "(^|\ )(for|if|in|instanceof|new|null|return|switch)($|\ )"
 color green "(^|\ )(switch|this|throw|try|typeof|undefined|var|let|void|while|with)($|\ )"
 
+#jasmine function
+color green "(beforeEach|beforeAll|it|describe|xit|fit|fdescribe|xdescribe|afterEach|afterAll)($|\()"
+
 #std
 color brightblue "(console|process)"
 
